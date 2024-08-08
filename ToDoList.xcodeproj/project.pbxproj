@@ -14,6 +14,7 @@
 		D7D9A0412C624A9D00425AB2 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D9A0402C624A9D00425AB2 /* ListRowView.swift */; };
 		D7D9A0432C624DB400425AB2 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D9A0422C624DB400425AB2 /* AddView.swift */; };
 		D7D9A0462C62592B00425AB2 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D9A0452C62592B00425AB2 /* ItemModel.swift */; };
+		D7D9A0492C638BD700425AB2 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D9A0482C638BD700425AB2 /* ListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		D7D9A0402C624A9D00425AB2 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		D7D9A0422C624DB400425AB2 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		D7D9A0452C62592B00425AB2 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		D7D9A0482C638BD700425AB2 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				D7D9A0442C6258F300425AB2 /* Models */,
+				D7D9A0472C638B7A00425AB2 /* ViewModels */,
 				D7D9A03D2C62477100425AB2 /* Views */,
 				D7D9A02F2C6246E100425AB2 /* ToDoListApp.swift */,
 				D7D9A0332C6246E300425AB2 /* Assets.xcassets */,
@@ -90,6 +93,14 @@
 				D7D9A0452C62592B00425AB2 /* ItemModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		D7D9A0472C638B7A00425AB2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D7D9A0482C638BD700425AB2 /* ListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +175,7 @@
 			files = (
 				D7D9A0462C62592B00425AB2 /* ItemModel.swift in Sources */,
 				D7D9A0432C624DB400425AB2 /* AddView.swift in Sources */,
+				D7D9A0492C638BD700425AB2 /* ListViewModel.swift in Sources */,
 				D7D9A0302C6246E100425AB2 /* ToDoListApp.swift in Sources */,
 				D7D9A03F2C6247B100425AB2 /* ListView.swift in Sources */,
 				D7D9A0412C624A9D00425AB2 /* ListRowView.swift in Sources */,
