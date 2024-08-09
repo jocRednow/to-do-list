@@ -34,7 +34,7 @@ struct ListView: View {
         }
         .navigationTitle("To Do List 📝")
         .navigationBarItems(
-            leading: EditButton(),
+            leading: listViewModel.items.isEmpty ? nil : EditButton(),
             trailing: NavigationLink("Add", destination: AddView())
         )
     }
