@@ -27,13 +27,6 @@ class ListViewModel: ObservableObject {
         else { return }
         
         self.items = savedItems
-        
-//        let newItems = [
-//            ItemModel(title: "First One", isCompleted: false),
-//            ItemModel(title: "Second One", isCompleted: true),
-//            ItemModel(title: "Third One", isCompleted: false),
-//        ]
-//        items.append(contentsOf: newItems)
     }
     
     func deleteItem(indexSet: IndexSet) {
